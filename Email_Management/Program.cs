@@ -13,7 +13,7 @@ namespace Email_Management
             string smtpServer = "smtp.gmail.com";
             int smtpPort = 587;
             string smtpUsername = "rohitgabane1234@gmail.com";
-            string smtpPassword = "fzir fvrv rjnf xtzq";
+            string smtpPassword = "";
 
             var emailService = new EmailService(smtpServer, smtpPort, smtpUsername, smtpPassword);
 
